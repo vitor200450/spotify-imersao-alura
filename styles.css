@@ -1,0 +1,121 @@
+body {
+    background-color: #000;
+}
+
+h1 {
+    color: #fff;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+}
+
+.sidebar-navigation, .library {
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.sidebar-navigation .logo {
+    background: #121212;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.sidebar-navigation .logo img {
+    width: 80px;
+}
+
+.sidebar nav ul {
+    margin-top: 20px;
+    padding: 0 20px 10px;
+}
+
+.sidebar ul li {
+    padding: 10px 0;
+}
+
+.sidebar nav ul li a, .library a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.sidebar li a span, .your-library a span {
+    padding-left: 5px;
+}
+
+.library {
+    margin-top: 10px;
+}
+
+.your-library {
+    display: flex;
+    justify-content: space-between;
+}
+
+.your-library a {
+    font-size: 18px;
+}
+
+.your-library span {
+    padding-right: 10px;
+}
+
+.create-playlist {
+    margin: 20px 15px 0 0;
+    border-radius: 8px;
+    padding: 10px 20px;
+    background: #1f1f1f;
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+}
+
+.create-playlist h3 {
+    font-weight: 600;
+}
+
+.create-playlist h3, .create-playlist p {
+    margin: 20px 0;
+}
+
+#create-playlist-btn {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 20px 0 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#create-playlist-btn a {
+    color: #000;
+    font-size: 16px;
+}
+
+#cookies {
+    color: #b3b3b3;
+    font-size: 12px;
+    padding: 40px 10px;
+}
+
+#language {
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    outline: 1px solid #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+}
