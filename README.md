@@ -8,28 +8,38 @@ Este projeto é um clone da interface do Spotify, desenvolvido durante a segunda
 
 O projeto está organizado da seguinte forma:
 
-- `assets/`: Contém ícones e outros recursos visuais.
-- `index.html`: O arquivo HTML principal que estrutura a página.
-- `reset.css`: Um arquivo CSS para resetar os estilos padrão dos navegadores.
-- `script.js`: Arquivo JavaScript (atualmente vazio) para adicionar funcionalidades interativas.
-- `styles.css`: Arquivo CSS principal para estilizar a página.
+-   `api-artists/`: Contém o arquivo JSON com os dados dos artistas.
+-   `index.html`: O arquivo HTML principal que estrutura a página.
+-   `README.md`: Arquivo com informações sobre o projeto.
+-   `script.js`: Arquivo JavaScript para adicionar funcionalidades interativas.
+-   `src/assets/`: Contém ícones e outros recursos visuais.
+-   `src/styles/`: Contém os arquivos CSS para estilizar a página.
 
 ## Tecnologias Utilizadas
 
-- HTML
-- CSS
-- JavaScript
+-   HTML
+-   CSS
+-   JavaScript
+-   JSON Server
 
 ## Como Executar o Projeto
 
 1. Clone o repositório para o seu ambiente local.
-2. Abra o arquivo `index.html` em um navegador web.
+2. Instale o `json-server` globalmente, se ainda não o tiver:
+    ```bash
+    npm install -g json-server
+    ```
+3. Navegue até o diretório api-artists e inicie o json-server:
+   `json-server --watch artists.json`
+4. Abra o arquivo index.html em um navegador web.
 
 ## Funcionalidades
 
-- Barra lateral com navegação.
-- Seção de biblioteca e criação de playlists.
-- Botões interativos para criar playlists e alterar o idioma.
+-   Barra lateral com navegação.
+-   Seção de biblioteca e criação de playlists (estático).
+-   Busca de artistas com exibição de cards dinâmicos.
+-   Loading spinner para indicar carregamento de dados.
+-   Responsividade para diferentes tamanhos de tela.
 
 ## Créditos
 
